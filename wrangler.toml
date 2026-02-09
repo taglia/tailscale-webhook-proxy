@@ -1,0 +1,9 @@
+name = "tailscale-webhook-proxy"
+main = "src/index.ts"
+compatibility_date = "2023-10-02"
+
+# Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
+# Note: Use secrets to store sensitive data.
+# Docs: https://developers.cloudflare.com/workers/platform/environment-variables
+[vars]
+PUSHOVER_API_URL = "https://api.pushover.net"
